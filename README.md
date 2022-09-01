@@ -14,13 +14,13 @@ git config --list
 ## Configurar el nombre del usuario global en git
 
 ```
-git config --global user.name "JBarreraBallestas"
+git config --global user.name "Nombre de Usuario"
 ```
 
 ## Configurar el correo del usuario global en git
 
 ```
-git config --global user.name "jbarreraballestas@correo.com"
+git config --global user.name "usuario@correo.com"
 ```
 
 ## Crear un repositorio de git en la carpeta actual
