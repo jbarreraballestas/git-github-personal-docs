@@ -101,3 +101,16 @@ git commit -am "Se realizarón cambios sobre x, y, z"
 git branch development
 ```
 
+## Cambiar a la rama desarrollo/development
+
+```
+git checkout development
+```
+
+## Cambiar a la rama principal/main
+
+```
+git checkout main
+```
+
+
