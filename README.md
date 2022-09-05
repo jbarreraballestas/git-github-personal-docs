@@ -125,4 +125,10 @@ git branch
 git merge development
 ```
 
+## Traer a la rama actual los cambios de la rama principal
+
+```
+git merge main
+```
+
 
