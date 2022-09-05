@@ -41,6 +41,11 @@ git status
 git add ARCHIVO.md
 ```
 
+## Agregar comentarios sobre los cambios realizados
+
+```
+git commit -m "Se creó el archivo ARCHIVO.md"
+```
 
 ## Elimina archivos del staging de la cache en memoria
 
@@ -77,3 +82,10 @@ git checkout hash_anterior ARCHIVO.md
 ```
 git checkout main ARCHIVO.md
 ```
+
+## Agregar commit de los archivos previamente agregados
+
+```
+git commit -am "Se realizarón cambios sobre x, y, z"
+```
+
