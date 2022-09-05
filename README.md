@@ -71,3 +71,9 @@ git log
 ```
 git checkout hash_anterior ARCHIVO.md
 ```
+
+## Ver los archivos o el proyecto en la version actual despues de haber hecho un checkout
+
+```
+git checkout main ARCHIVO.md
+```
