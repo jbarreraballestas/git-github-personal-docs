@@ -41,11 +41,6 @@ git status
 git add ARCHIVO.md
 ```
 
-## Elimina archivos del staging, estado temporal
-
-```
-git rm ARCHIVO.md
-```
 
 ## Elimina archivos del staging de la cache en memoria
 
