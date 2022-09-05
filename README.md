@@ -53,4 +53,14 @@ git rm ARCHIVO.md
 git rm --cached ARCHIVO.md
 ```
 
+## Mostrar el historial de commits y cambios en un archivo
 
+```
+git show ARCHIVO.md
+```
+
+## Mostrar cambios entre dos commits, mas antiguo seguido mas reciente
+
+```
+git diff hash_anterior hash_reciente
+```
