@@ -59,3 +59,15 @@ git show ARCHIVO.md
 ```
 git diff hash_anterior hash_reciente
 ```
+
+## Ver el historial de cambios en el proyecto
+
+```
+git log
+```
+
+## Ver los archivos o el proyecto en una version anterior
+
+```
+git checkout hash_anterior ARCHIVO.md
+```
