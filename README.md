@@ -35,6 +35,12 @@ git init
 git status
 ```
 
+## Cambiar el nombre de la rama actual a main
+
+```
+git branch -m main
+```
+
 ## Agregar archivos al rastreo de git
 
 ```
@@ -87,5 +93,11 @@ git checkout main ARCHIVO.md
 
 ```
 git commit -am "Se realizarón cambios sobre x, y, z"
+```
+
+## Agregar una nueva rama de desarrollo/development
+
+```
+git branch development
 ```
 
