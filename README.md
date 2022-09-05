@@ -113,4 +113,16 @@ git checkout development
 git checkout main
 ```
 
+## Ver la rama actual
+
+```
+git branch
+```
+
+## Traer a la rama actual los cambios de la rama desarrollo
+
+```
+git merge development
+```
+
 
