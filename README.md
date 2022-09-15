@@ -95,7 +95,7 @@ git checkout main ARCHIVO.md
 git commit -am "Se realizarón cambios sobre x, y, z"
 ```
 
-## Agregar una nueva rama de desarrollo/development
+## Agregar una nueva rama de desarrollo/development a partir del la rama actual
 
 ```
 git branch development
