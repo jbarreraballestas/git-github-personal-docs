@@ -95,16 +95,16 @@ git checkout main ARCHIVO.md
 git commit -am "Se realizarón cambios sobre x, y, z"
 ```
 
-## Agregar una nueva rama de desarrollo/development a partir del la rama actual
+## Agregar una nueva rama de desarrollo/develop a partir del la rama actual
 
 ```
-git branch development
+git branch develop
 ```
 
-## Cambiar a la rama desarrollo/development
+## Cambiar a la rama desarrollo/develop
 
 ```
-git checkout development
+git checkout develop
 ```
 
 ## Cambiar a la rama principal/main
@@ -113,10 +113,16 @@ git checkout development
 git checkout main
 ```
 
-## Ver la rama actual
+## Ver cual es la rama de trabajo actual
 
 ```
 git branch
+```
+
+## Ver diferencias entre la rama main y la rama develop
+
+```
+git diff main develop
 ```
 
 ## Traer a la rama actual los cambios de la rama desarrollo
