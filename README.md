@@ -137,4 +137,15 @@ git merge development
 git merge main
 ```
 
+## Eliminar la rama local develop ⚠
+
+```
+git branch --delete develop
+```
+
+## Eliminar la rama remota develop ⚠
+
+```
+git push origin :develop
+```
 
