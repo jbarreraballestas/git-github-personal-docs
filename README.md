@@ -125,13 +125,13 @@ git branch
 git diff main develop
 ```
 
-## Traer a la rama actual los cambios de la rama desarrollo
+## Fusionar a la rama actual los cambios de la rama desarrollo
 
 ```
 git merge development
 ```
 
-## Traer a la rama actual los cambios de la rama principal
+## Fusionar a la rama actual los cambios de la rama principal
 
 ```
 git merge main
