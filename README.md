@@ -192,4 +192,5 @@ git rebase develop
 # Git grep ⚠ cooming soon ❕ Buscar en archivos
 # Git log ⚠ cooming soon ❕ Buscar en commits
 # Git alias ⚠ cooming soon ❕ Alias para los comandos
-
+# Git blame ⚠ cooming soon ❕ Ultima modificación de cada cambio linea
+# Github ⚠ cooming soon
