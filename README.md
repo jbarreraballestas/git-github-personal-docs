@@ -181,3 +181,12 @@ git rebase develop
 ```
 
 > Ya quedó la rama main con los cambios hechos en develop, si se elimina develop quedará como si siempre ocurrieron en main, esto es una mala práctica
+
+# Git stash ⚠ cooming soon ❕ Guardar en una memoria temporal
+![Git stash](https://static.platzi.com/media/user_upload/GIT%20Multiple%20Branches-9368aefb-007c-48f6-9f7c-2e43152cd4cb.jpg)
+# Git clean ⚠ cooming soon
+# Git cherry pick ⚠ cooming soon
+# Git reset ⚠ cooming soon
+# Git reflow ⚠ cooming soon
+# Git stash ⚠ cooming soon
+# Git stash ⚠ cooming soon
