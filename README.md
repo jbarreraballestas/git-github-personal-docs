@@ -96,6 +96,9 @@ git checkout main ARCHIVO.md
 ```
 git commit -am "Se realizarón cambios sobre x, y, z"
 ```
+# Ramas (branchs)
+
+![Git branchs](https://bluuweb.github.io/desarrollo-web-bluuweb/img/feature.png)
 
 ## Agregar una nueva rama de desarrollo/develop a partir del la rama actual
 
