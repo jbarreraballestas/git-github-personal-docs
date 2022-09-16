@@ -96,9 +96,9 @@ git checkout main ARCHIVO.md
 ```
 git commit -am "Se realizarón cambios sobre x, y, z"
 ```
-# Ramas (branchs)
+# Ramas (branches)
 
-![Git branchs](https://bluuweb.github.io/desarrollo-web-bluuweb/img/feature.png)
+![Git branches](https://bluuweb.github.io/desarrollo-web-bluuweb/img/feature.png)
 
 ## Agregar una nueva rama de desarrollo/develop a partir del la rama actual
 
@@ -162,3 +162,22 @@ git push origin :develop
 ```
 git log --all --graph --decorate --oneline
 ```
+
+# Git rebase ⚠ mala práctica
+## use solo localmente fusiona ramas sin dejar rastro de la otra rama en el historial
+
+![Git rebase](https://miro.medium.com/max/1400/1*K4anH9QzRcPqLCv-7HyiCQ.png)
+
+## Se hace rebase primero a los cambios de la rama que se quiere eliminar sin dejar rastro a la rama que conservará todos los cambios. Ej develop: git checkout develop
+
+```
+git rebase main
+```
+
+## Luego se hace rebase desde la rama que conservara los cambios a la rama que se eliminará. Ej main: git checkout main
+
+```
+git rebase develop
+```
+
+> Ya quedó la rama main con los cambios hechos en develop, si se elimina develop quedará como si siempre ocurrieron en main, esto es una mala práctica
