@@ -151,3 +151,8 @@ git branch --delete develop
 git push origin :develop
 ```
 
+## Ver historia grafica del repositorio
+
+```
+git log --all --graph --decorate --oneline
+```
