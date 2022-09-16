@@ -1,5 +1,7 @@
 # Documentación personal sobre el uso de git y github
 
+![Git cycle](https://i.stack.imgur.com/qPcFI.png)
+
 ## Ver las opciones para configuración de git
 
 ```
