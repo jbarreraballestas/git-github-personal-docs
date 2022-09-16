@@ -128,8 +128,7 @@ git diff main develop
 ```
 
 # Git merge
-
-![Git merge]([https://i.stack.imgur.com/qPcFI.png](https://blog.mergify.com/content/images/size/w1000/2022/06/Untitled-2022-06-07-1124.png))
+![Git merge](https://blog.mergify.com/content/images/size/w1000/2022/06/Untitled-2022-06-07-1124.png)
 
 ## Fusionar a la rama actual los cambios de la rama desarrollo
 
